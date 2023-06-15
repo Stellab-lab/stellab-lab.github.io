@@ -154,6 +154,12 @@
 
 .sabounito-title {
   font-size: 65px !important;
+  margin-top: 40px;
+}
+
+.lacroix-title {
+  font-size: 65px !important;
+  margin-top: 140px;
 }
 
 .mentor-title-2 {
@@ -199,6 +205,10 @@
     font-size: 55px !important;
   }
 
+  .lacroix-title {
+    font-size: 45px !important;
+  }
+
   #portfolio-msg {
     font-size: 3em !important;
   }
@@ -231,7 +241,12 @@
   }
 
   .sabounito-title {
-    font-size: 35px !important;
+    font-size: 40px !important;
+  }
+
+  .lacroix-title {
+    font-size: 40px !important;
+    margin-top: 0;
   }
 
   .oustau-title {
