@@ -127,7 +127,7 @@
 }
 
 #portfolio-msg {
-  font-size: 6em !important;
+  font-size: 4em !important;
 }
 
 #stella-msg {
@@ -145,6 +145,11 @@
 
 .oustau-title {
   margin-top: 100px;
+}
+
+.balenciaga-title {
+  margin-top: 100px;
+  font-size: 4em !important;
 }
 
 .sabounito-title {
@@ -195,7 +200,7 @@
   }
 
   #portfolio-msg {
-    font-size: 5em !important;
+    font-size: 3em !important;
   }
 
   #stella-msg {
@@ -409,7 +414,7 @@
   }
 
   #portfolio-msg {
-    font-size: 2em !important;
+    font-size: 1.5em !important;
   }
 
   #stella-msg {
