@@ -71,7 +71,7 @@ body {
 }
 
 .green-text {
-	color:  #6A7C71;
+	color:  #6A7C71 !important;
 }
 
 .gray-text {
