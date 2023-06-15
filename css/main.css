@@ -5,7 +5,8 @@ body {
 }
 
 .travaillons-ensemble--img {
-    background: url("../assets/images/Travaillons-ensemble.jpg") center center;
+    background: url("../assets/images/Travaillons-ensemble.jpg");
+    background-position: 150% 15%;
     background-size: cover;
 }
 
