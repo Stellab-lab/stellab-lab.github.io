@@ -1,5 +1,7 @@
 body {
-	background-image: url("../assets/images/background.jpg");
+    background-image: url("../assets/images/background.jpg");
+    height: 100vh;
+    background-size: cover;
 }
 
 .travaillons-ensemble--img {
