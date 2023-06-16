@@ -26,7 +26,7 @@ bg2.addEventListener('mousemove', (e) => {
 
 	bg2.style.transform = `translate3d(-${mouseX2}%, -${mouseY2}%, 0)`;
 });
-$(".centered2").css("top", $(".moving-img2").offset().top + 200);
+// $(".centered2").css("top", $(".moving-img2").offset().top + 200);
 
 bg2.addEventListener('mouseout', (e) => {
 	bg2.style.transform = `none`;

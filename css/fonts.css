@@ -91,14 +91,10 @@
 }
 
 .centered2 {
-  /*padding-bottom: 200px;*/
-  margin-top: -100px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 60px;
-  color: white;
   z-index: 99;
+  position: relative;
+  font-size: 64px;
+  margin-bottom: -160px;
 }
 
 .normal-Fbanner {
@@ -259,6 +255,13 @@
 }
 
 @media (max-width:  900px) {
+  .centered2 {
+    z-index: 99;
+    position: relative;
+    font-size: 44px;
+    margin-bottom: -130px;
+  }
+
   #navbar-mobile {
     display: inline;
     width: 100%;
@@ -342,7 +345,24 @@
   display: none;
 }
 
+@media (max-width: 608px) {
+  .centered2 {
+    z-index: 99;
+    position: relative;
+    font-size: 34px;
+    margin-bottom: -100px;
+  }
+}
+
 @media (max-width: 540px) {
+  .centered2 {
+    z-index: 99;
+    position: relative;
+    font-size: 34px;
+    margin-top: 40px;
+    margin-bottom: -100px;
+  }
+
   .appear-phone-scroll {
     display: flex;
   }
@@ -475,17 +495,6 @@
   .centered {
     top: 30%;
     font-size: 40px;
-  }
-
-  .centered2 {
-    /*margin-bottom: 450px;*/
-    margin-top: -235px !important;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 36px !important;
-    color: white;
-    z-index: 99;
   }
 
   .hide_col {
