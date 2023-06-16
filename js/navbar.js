@@ -7,6 +7,7 @@ $(openNav).addClass('d-inline');
 $(closeNav).addClass('d-none');
 
 openNav.onclick = function() {
+	navMenu.style.maxHeight = "100%";
 	$(openNav).removeClass('d-inline');
 	$(openNav).addClass('d-none');
 	$(closeNav).removeClass('d-none');
