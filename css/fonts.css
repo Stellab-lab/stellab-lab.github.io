@@ -336,6 +336,10 @@
   padding-top: 0px !important;
 }
 
+.sg-title {
+  margin-top: 60px !important;
+}
+
 .hide_col_tel {
   display: none;
 }
@@ -350,6 +354,9 @@
 }
 
 @media (max-width: 540px) {
+  .margin-title {
+    margin-top: 60px !important;
+  }
   .lacroix-title {
     margin-bottom: -160px !important;
     margin-top: 80px !important;
