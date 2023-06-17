@@ -496,7 +496,7 @@
   }
 
   #image, #image2, #image3, #image4 {
-    margin-top: 10px !important;
+    /*margin-top: 10px !important;*/
   }
 
   .centered {
