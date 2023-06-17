@@ -153,11 +153,6 @@
   margin-top: 40px;
 }
 
-.lacroix-title {
-  font-size: 65px !important;
-  margin-top: 140px;
-}
-
 .mentor-title-2 {
   margin-top: -45px;
 }
@@ -355,6 +350,11 @@
 }
 
 @media (max-width: 540px) {
+  .lacroix-title {
+    margin-bottom: -160px !important;
+    margin-top: 80px !important;
+  }
+
   .centered2 {
     z-index: 99;
     position: relative;
